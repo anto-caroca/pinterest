@@ -1,0 +1,25 @@
+{
+  "name": "pinterest",
+  "version": "1.0.0",
+  "description": "reto para replicar pinterest",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anto-caroca/pinterest.git"
+  },
+  "keywords": [
+    "pinterest"
+  ],
+  "author": "Antonella Caroca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anto-caroca/pinterest/issues"
+  },
+  "homepage": "https://github.com/anto-caroca/pinterest#readme"
+}
