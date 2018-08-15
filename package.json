@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/anto-caroca/pinterest/issues"
   },
-  "homepage": "https://github.com/anto-caroca/pinterest#readme"
+  "homepage": "https://github.com/anto-caroca/pinterest#readme",
+  "dependencies": {
+    "unsplash-js": "^4.8.0"
+  }
 }
