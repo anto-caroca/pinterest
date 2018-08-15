@@ -10,6 +10,27 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Create pin</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="modalP"><input type="text"></p>
+                    <p><textarea name="" id="" cols="20" rows="5"></textarea></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary"  data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <div class="container">
         <div class="row">
             <div class="col"> 
@@ -17,7 +38,7 @@
                 <button id="boton" onclick="buscar()">buscar</button>
             </div>
             <div class="col-sm-auto">
-                    Variable width content
+                    <p id="upload">icono</p>
             </div>
             <div class="col col-sm-2">
                     3 of 3
@@ -25,7 +46,12 @@
         </div>
     </div>
     
-    <div id="images"></div>
+    <div id="images">
+        <div class="middle">
+            <div class="text">John Doe</div>
+        </div>
+
+    </div>
     
    
    <script>var pixabayWidget = { 'key': '9821919-eb38392f2349a770434b8830a' }</script>
