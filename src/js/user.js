@@ -30,6 +30,8 @@ function pin(){
     pinCreado.style.display ="block";
  pinT.innerHTML = modalT.value;
  pinB.innerHTML += modalB.value;
+ modalB.value="";
+ modalT.value="";
 
 }
 
@@ -38,4 +40,5 @@ iconTrash.addEventListener('click', deletePin);
 function deletePin(){
     pinT.innerHTML = "";
     pinB.innerHTML = "";
+    pinCreado.style.display="none";
 }
