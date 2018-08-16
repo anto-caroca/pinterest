@@ -25,13 +25,6 @@ function clearInput(){
     searchPin = document.getElementById('searchPin').value= "";
 }
 
-const upload = document.getElementById('upload');
-
-upload.addEventListener('click', foto);
-
-function foto(){
-    $('#myModal').modal();
-}
 
 images.innerHTML = `<div class='pixabay_widget' data-search=${searchPin} data-max-rows='3' data-row-height='180' data-branding='false' target:'_blank' data-navpos='top'></div>`;
 
