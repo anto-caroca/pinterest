@@ -31,27 +31,51 @@
     </div>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col"> 
+     <div class="d-flex justify-content-between" id="div">
+       
+            
+                <i class="fab fa-pinterest" id="iconPinterest"></i>
                 <input type="text"  id="searchPin" placeholder="search">
-                <button id="boton" onclick="buscar()">buscar</button>
+                <i id="lupa" class="fas fa-search" onclick="buscar()"></i>
+                <button type="button" id="close" class="close" aria-label="Close" onclick="clearInput()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" id="dropdown">
+                         All pins
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Link 1</a>
+                          <a class="dropdown-item" href="#">Link 2</a>
+                          <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                      
+            
+            <div class="col col-md-4">
+                <div class="links">
+                   <p>Home</p><p>Following</p><p>Explore</p><p id="upload">Antonella</p>
+                </div>        
             </div>
-            <div class="col-sm-auto">
-                    <p id="upload">icono</p>
+            <div class="col col-md-1" id="iconoFinal"> 
+                    <i class="fas fa-comment-dots"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-ellipsis-h"></i>
             </div>
-            <div class="col col-sm-2">
-                    3 of 3
-            </div>
-        </div>
+        
     </div>
     
-    <div id="images">
-        <div class="middle">
-            <div class="text">John Doe</div>
-        </div>
-
+    <div  id="grupoBotones">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
     </div>
+
+    <div id="images"></div>
     
    
    <script>var pixabayWidget = { 'key': '9821919-eb38392f2349a770434b8830a' }</script>

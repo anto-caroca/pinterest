@@ -9,6 +9,93 @@ div{
     border-radius: 20px;
     padding: 10px;
 }
-input[type=search]{
+#searchPin{
     width: 70%;
+   padding-left: 55px;
+   padding-top: 10px;
+   margin-top: 20px;
+  background-color: #f2f2f2;
+  border: none;
+  height: 40px;
+  border: solid;
+}
+
+#lupa{
+    position: absolute;
+    left: 4%;
+    top: 30px;
+    padding: 10px 15px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+#close{
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    padding: 9px 8px;
+    color: gray;
+    cursor: pointer;
+}
+
+#dropdown{
+    position: absolute;
+    left: 52%;
+    font-weight: bold;
+   margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+#div{
+    
+    position: relative;
+    
+}
+
+#iconPinterest{
+    color: red;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    #div{
+        position: relative;
+        left: 0%;
+    }
+  }
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    border: solid;
+    margin-top: 10px;
+}
+
+#iconoFinal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: gray;
+    font-size: 25px;
+    padding: 10px;
+    border: solid;
+}
+
+#grupoBotones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    border: solid;
+    width: 130%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }

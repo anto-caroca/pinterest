@@ -19,6 +19,11 @@
 let searchPin = document.getElementById('searchPin');
 searchPin='cats';
 let images = document.getElementById('images');
+let close = document.getElementById('close');
+
+function clearInput(){
+    searchPin = document.getElementById('searchPin').value= "";
+}
 
 const upload = document.getElementById('upload');
 
