@@ -31,9 +31,10 @@ images.innerHTML = `<div class='pixabay_widget' data-search=${searchPin} data-ma
 function buscar(){
 searchPin = document.getElementById('searchPin').value;
 images.innerHTML = `<div class='pixabay_widget' data-search=${searchPin} data-max-rows='3' data-row-height='180' data-branding='false' data-navpos='top'></div>`;
-console.log(searchPin);
+//console.log(searchPin);
 new initPixabayWidget();
 
 }
+
 
  
